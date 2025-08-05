@@ -4,16 +4,32 @@ Application and detection of keylogger attack
 This project demonstrates:
 
 A basic keylogger implementation
+
 Email-based log transmission
+
 Network-based keylogging
+
 Detection techniques using Process Monitor and wireshark
+
+
 
 Code Files
 
 test.py: Tests email sending capability
+
 keylogger_email.py: Keylogger that sends logs via email periodically
+
 client.py: Keylogger client sending data to a remote server
+
 requirements.txt: Required Python packages
+
+
+Detection Evidence
+
+process_monitorr.jpeg: Shows keylogger network activity
+capturing keylogger.pcapng: wireshark capture
+Logfile.PML: process monitor log file 
+wireshark.jpeg: screenshot of the capture
 
 Setup Instructions
 
@@ -37,6 +53,9 @@ Generate app password: Settings > Security > App passwords
 Ethical Considerations
 
 🔒 Legal Compliance: Use only in controlled environments you own
+
 🚫 No Malicious Use: Strictly for defensive research
+
 ⚠️ Responsible Disclosure: Never deploy without consent
+
 Disclaimer: This project is for educational purposes only. Never deploy keyloggers without explicit permission. Unauthorized use is illegal and unethical.
